@@ -1,0 +1,8 @@
+@mixin btn__LandingPage($bgc, $border) {
+  padding: 1.3rem 3.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: $bgc;
+  border: $border;
+  border-radius: 4rem;
+}
