@@ -32,10 +32,21 @@ ul {
   width: 90%;
   margin: 0 auto; }
 
+.u-text-center {
+  text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem; }
+
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
   padding-top: 2rem; }
   .header__items {
     display: inline-block;
@@ -53,3 +64,10 @@ ul {
       .header__link--btn--bgc {
         color: #000;
         background-color: #fff; }
+
+.banner__Landing {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/img/loanding_page/banner.png");
+  background-size: cover;
+  background-position: center; }
