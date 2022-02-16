@@ -1,0 +1,43 @@
+.landing__page--info {
+  // padding: 20rem 30rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 12rem;
+  &--heading {
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    & h2 {
+      font-size: 4.4rem;
+    }
+  }
+  &--bottomText {
+    color: #fff;
+    text-align: center;
+    & span {
+      color: #32ccf6;
+    }
+  }
+}
+
+.landing__button--group {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.landing__button {
+  padding: 1.3rem 3.2rem;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 4rem;
+  &.btn1 {
+    background: linear-gradient(to right, #32ccf6, #8d3bef);
+    border: none;
+  }
+  &.btn2 {
+    background-color: transparent;
+  }
+}
