@@ -119,3 +119,30 @@
     }
   }
 }
+
+.premium__group {
+  &--flex {
+    padding: 8rem 16rem;
+    &--block {
+    }
+    &--sqr {
+      width: 12rem;
+      height: 12rem;
+      border-radius: 50%;
+      background-color: #363535;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &--text {
+      color: #fff;
+      text-align: center;
+      padding-top: 2rem;
+      margin-left: -3rem;
+      &--p {
+        padding-top: 0.6rem;
+      }
+    }
+  }
+}
