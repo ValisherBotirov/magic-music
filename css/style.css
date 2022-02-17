@@ -135,6 +135,40 @@ ul {
     .premium__group--flex--text--p {
       padding-top: 0.6rem; }
 
+.premium__group--squary {
+  margin-top: 5rem;
+  padding: 0 22%; }
+
+.premium__group--box {
+  width: 32rem;
+  height: 36rem;
+  border: 0.3rem solid white;
+  border-radius: 0.8rem;
+  padding: 3rem; }
+  .premium__group--box.second {
+    border: 0.3rem solid #32ccf6; }
+  .premium__group--box--title {
+    color: #fff; }
+    .premium__group--box--title p {
+      padding-top: 1rem; }
+      .premium__group--box--title p span {
+        font-size: 3rem; }
+  .premium__group--box--info {
+    color: #fff;
+    padding-top: 3rem; }
+
+.premium__group--button {
+  margin: 2rem auto;
+  text-align: center; }
+
+.text__lineHeight {
+  padding-top: 2.5rem; }
+  .text__lineHeight.second span {
+    color: #32ccf6; }
+
+.premium--cost span {
+  color: #32ccf6; }
+
 .u-text-center {
   text-align: center; }
 
@@ -155,6 +189,9 @@ ul {
 
 .fs36 {
   font-size: 3.6rem; }
+
+.fs20 {
+  font-size: 2rem; }
 
 .flex {
   display: flex;
@@ -213,4 +250,7 @@ ul {
   margin-top: 10rem; }
 
 .landing__find {
+  margin-top: 10rem; }
+
+.landing__premium {
   margin-top: 10rem; }

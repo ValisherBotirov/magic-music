@@ -145,4 +145,50 @@
       }
     }
   }
+  &--squary {
+    margin-top: 5rem;
+    padding: 0 22%;
+  }
+  &--box {
+    width: 32rem;
+    height: 36rem;
+    border: 0.3rem solid white;
+    border-radius: 0.8rem;
+    padding: 3rem;
+    &.second {
+      border: 0.3rem solid #32ccf6;
+    }
+    &--title {
+      color: #fff;
+      & p {
+        padding-top: 1rem;
+        & span {
+          font-size: 3rem;
+        }
+      }
+    }
+    &--info {
+      color: #fff;
+      padding-top: 3rem;
+    }
+  }
+  &--button {
+    margin: 2rem auto;
+    text-align: center;
+  }
+}
+
+.text__lineHeight {
+  padding-top: 2.5rem;
+  &.second {
+    & span {
+      color: #32ccf6;
+    }
+  }
+}
+
+.premium--cost {
+  & span {
+    color: #32ccf6;
+  }
 }
