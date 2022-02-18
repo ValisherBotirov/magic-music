@@ -201,6 +201,12 @@ ul {
       .header__list--link.ikki span {
         padding-left: 1rem; }
 
+.card--top {
+  width: 34rem; }
+
+.home__card {
+  margin-top: 3rem; }
+
 .u-text-center {
   text-align: center; }
 
@@ -228,6 +234,11 @@ ul {
 .fs12 {
   font-size: 1.2rem; }
 
+.title--text {
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: bold; }
+
 .button__sign {
   width: 20rem;
   height: 4rem;
@@ -251,6 +262,10 @@ ul {
   display: flex;
   justify-content: space-around;
   gap: 2rem; }
+
+.flex--align {
+  display: flex;
+  align-items: center; }
 
 .footer {
   padding: 10rem 0 5rem 0;
