@@ -177,6 +177,30 @@ ul {
   .next-page span {
     color: #32ccf6; }
 
+.header__list {
+  display: flex;
+  align-items: center; }
+  .header__list--item {
+    display: inline-block; }
+    .header__list--item:not(:first-child) {
+      padding-left: 3rem; }
+  .header__list--link {
+    color: #fff; }
+    .header__list--link.border {
+      padding: 0.7rem 2.4rem;
+      border: 1px solid #32ccf6;
+      color: #32ccf6;
+      border-radius: 4rem; }
+    .header__list--link.border2 {
+      padding: 0.7rem 5.4rem 0.7rem 2.4rem;
+      background-color: #898b91;
+      border-radius: 8rem; }
+    .header__list--link.ikki {
+      display: flex;
+      align-items: center; }
+      .header__list--link.ikki span {
+        padding-left: 1rem; }
+
 .u-text-center {
   text-align: center; }
 
@@ -309,7 +333,7 @@ ul {
 
 .main--home {
   background-color: #161a1a;
-  padding: 1rem 0; }
+  padding: 0.8rem 0; }
 
 .banner__Landing {
   width: 100vw;
