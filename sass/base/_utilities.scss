@@ -39,3 +39,15 @@
   color: #fff;
   font-weight: bold;
 }
+
+.icon--text {
+  padding-top: 1rem;
+  &--h3 {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+  &--p {
+    color: #99999f;
+    // padding-top: 0.4rem;
+  }
+}

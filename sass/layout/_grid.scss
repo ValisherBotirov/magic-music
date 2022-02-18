@@ -18,3 +18,8 @@
   display: grid;
   gap: 5rem;
 }
+
+.grid--6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
