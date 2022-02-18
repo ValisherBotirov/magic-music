@@ -2,3 +2,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+.flex__sa {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}

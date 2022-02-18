@@ -192,3 +192,15 @@
     color: #32ccf6;
   }
 }
+
+// a tagi
+.next-page {
+  text-align: center;
+
+  color: black;
+  & span {
+    color: #32ccf6;
+  }
+  margin-top: 1rem;
+  display: inline-block;
+}

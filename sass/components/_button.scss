@@ -1,0 +1,17 @@
+.button__sign {
+  width: 20rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  & p {
+    padding-right: -8rem;
+  }
+  &.btn1 {
+    background-color: #4267b2;
+    border: none;
+    color: #fff;
+  }
+}
