@@ -307,6 +307,10 @@ ul {
         color: #000;
         background-color: #fff; }
 
+.main--home {
+  background-color: #161a1a;
+  padding: 1rem 0; }
+
 .banner__Landing {
   width: 100vw;
   height: 100vh;
