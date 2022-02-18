@@ -244,6 +244,9 @@ ul {
   .icon--text--p {
     color: #99999f;
     font-size: 1.2rem; }
+  .icon--text.sqr {
+    text-align: center;
+    margin-left: -2rem; }
 
 .button__sign {
   width: 20rem;
