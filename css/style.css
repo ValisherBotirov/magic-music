@@ -338,6 +338,10 @@ ul {
   display: grid;
   grid-template-columns: repeat(6, 1fr); }
 
+.grid--u--row {
+  display: grid;
+  row-gap: 2rem; }
+
 .header {
   display: flex;
   justify-content: space-between;
