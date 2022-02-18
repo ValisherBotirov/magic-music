@@ -201,6 +201,9 @@ ul {
 .fs20 {
   font-size: 2rem; }
 
+.fs12 {
+  font-size: 1.2rem; }
+
 .button__sign {
   width: 20rem;
   height: 4rem;
@@ -324,6 +327,23 @@ ul {
 .landing__premium {
   margin-top: 10rem; }
 
+.signIn__block {
+  margin-top: 2rem; }
+  .signIn__block--left {
+    display: flex;
+    align-items: center; }
+    .signIn__block--left--input {
+      font-size: 2rem; }
+    .signIn__block--left--label {
+      padding-left: 1rem;
+      font-size: 1.6rem; }
+  .signIn__block--right--btn {
+    padding: 1rem 5rem;
+    color: #fff;
+    background-color: #25afaf;
+    border-radius: 1rem;
+    font-size: 1.8rem; }
+
 .banner__Landing.signBanner {
   height: 130vh; }
 
@@ -334,7 +354,8 @@ ul {
   background-color: #fff;
   padding: 2rem 4rem;
   text-align: center;
-  border-radius: 0.5rem; }
+  border-radius: 0.5rem;
+  position: relative; }
 
 .signUp--form--box {
   width: 80%;
@@ -360,13 +381,17 @@ ul {
     width: 80%;
     background-color: #2d9bef;
     border-radius: 2rem;
-    height: 5rem;
+    height: 4rem;
     border: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: block;
     margin: 0 auto;
     margin-top: 2rem; }
+    .signUp--form--text--btn.two {
+      background-color: transparent;
+      border: 2px solid black;
+      color: black; }
 
 .signUp--input {
   display: block;
@@ -386,3 +411,9 @@ ul {
   border-radius: 2px;
   padding: 0 1rem;
   margin-top: 2rem; }
+
+.exit--icon {
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  font-size: 2rem; }

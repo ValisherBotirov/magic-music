@@ -1,0 +1,23 @@
+.signIn__block {
+  margin-top: 2rem;
+  &--left {
+    display: flex;
+    align-items: center;
+    &--input {
+      font-size: 2rem;
+    }
+    &--label {
+      padding-left: 1rem;
+      font-size: 1.6rem;
+    }
+  }
+  &--right {
+    &--btn {
+      padding: 1rem 5rem;
+      color: #fff;
+      background-color: rgb(37, 175, 175);
+      border-radius: 1rem;
+      font-size: 1.8rem;
+    }
+  }
+}

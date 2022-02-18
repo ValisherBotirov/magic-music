@@ -11,6 +11,7 @@
   padding: 2rem 4rem;
   text-align: center;
   border-radius: 0.5rem;
+  position: relative;
 }
 
 .signUp--form {
@@ -41,13 +42,18 @@
       width: 80%;
       background-color: #2d9bef;
       border-radius: 2rem;
-      height: 5rem;
+      height: 4rem;
       border: none;
       color: #fff;
-      font-size: 2rem;
+      font-size: 1.8rem;
       display: block;
       margin: 0 auto;
       margin-top: 2rem;
+      &.two {
+        background-color: transparent;
+        border: 2px solid black;
+        color: black;
+      }
     }
   }
 }
@@ -74,4 +80,12 @@
   border-radius: 2px;
   padding: 0 1rem;
   margin-top: 2rem;
+}
+
+// Exit icon
+.exit--icon {
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  font-size: 2rem;
 }

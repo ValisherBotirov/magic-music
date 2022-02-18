@@ -8,7 +8,7 @@
     <title>MagicMusic</title>
   </head>
   <body>
-    <div class="banner__Landing signBanner">
+    <div class="banner__Landing">
       <div class="container">
         <div class="header">
           <div class="header__logo">
@@ -40,7 +40,9 @@
       </div>
       <div class="signPage">
         <div class="exit--icon">✖</div>
-        <h2 class="signPage--title u-margin-bottom-small">Ready to sign up?</h2>
+        <h2 class="signPage--title u-margin-bottom-small">
+          What will you listen to today?
+        </h2>
         <div class="flex__sa">
           <div class="button__sign btn1">
             <img src="/img/Sign_page/facebook.png" alt="facebook" />
@@ -54,42 +56,29 @@
         <form action="" class="signUp--form">
           <input type="text" placeholder="Email adress" class="signUp--input" />
           <input type="password" placeholder="Password" class="signUp--input" />
-          <input type="text" placeholder="Username" class="signUp--input" />
-          <div class="flex">
-            <select class="select--form">
-              <option value="date">Date of Birth</option>
-              <option value="date">18</option>
-              <option value="date">23</option>
-            </select>
-            <select name="" id="" class="select--form">
-              <option value="date">Gender</option>
-              <option value="date">Erkak</option>
-              <option value="date">Ayol</option>
-            </select>
-          </div>
-          <div class="signUp--form--box flex">
-            <div class="signUp--form--box--left">
-              <input type="checkbox" />
-              <label for="">I'm not a robot</label>
+
+          <div class="signIn__block flex u-margin-bottom-small">
+            <div class="signIn__block--left">
+              <input type="checkbox" class="signIn__block--left--input" />
+              <label for="" class="signIn__block--left--label"
+                >Remember me!</label
+              >
             </div>
-            <div class="signUp--form--box--right">
-              <img
-                src="/img/Sign_page/robot.png"
-                alt="robot"
-                class="sign-robot"
-              />
+            <div class="signIn__block--right">
+              <a class="signIn__block--right--btn">Log in</a>
             </div>
           </div>
+          <a
+            href="#"
+            class="link-signIn u-text-center u-margin-bottom-small fs12"
+            >Forgot your password?</a
+          >
           <div class="signUp--form--text u-text-center">
-            <p class="signUp--form--text-p">
-              By clicking on "Sign Up" , you accept the
-            </p>
-            <p class="signUp--form--text-p2">Terms and Conditions of Use</p>
-            <button class="signUp--form--text--btn">SIGN UP</button>
+            <p class="signUp--form--text-p">Don't have in account?</p>
+            <button class="signUp--form--text--btn two">
+              SIGN UP FOR MUSICBOX
+            </button>
           </div>
-          <a href="/html/sign_in.html" class="next-page">
-            Alredy heve an acount <span>Login in</span>
-          </a>
         </form>
       </div>
     </div>
