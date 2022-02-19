@@ -504,3 +504,6 @@ ul {
   top: 0.8rem;
   right: 1rem;
   font-size: 2rem; }
+
+.icon--text.padding {
+  margin: 0 1rem; }
