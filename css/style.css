@@ -518,3 +518,17 @@ ul {
 
 .icon--text.padding {
   margin: 0 1rem; }
+
+.genry__item {
+  display: inline-block; }
+  .genry__item:not(:first-child) {
+    padding-left: 3rem; }
+
+.genry__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold; }
+  .genry__link.big {
+    font-size: 6.4rem;
+    padding-right: 2rem; }
