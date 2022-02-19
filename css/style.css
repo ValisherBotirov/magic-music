@@ -263,6 +263,17 @@ ul {
     border: none;
     color: #fff; }
 
+.center__button {
+  text-align: center; }
+  .center__button--btn {
+    padding: 0.8rem 2.6rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 1.4rem; }
+
 .flex {
   display: flex;
   justify-content: space-between; }

@@ -15,3 +15,17 @@
     color: #fff;
   }
 }
+
+.center__button {
+  text-align: center;
+
+  &--btn {
+    padding: 0.8rem 2.6rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 1.4rem;
+  }
+}
