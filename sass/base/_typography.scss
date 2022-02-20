@@ -240,6 +240,25 @@
       }
     }
   }
-  &__right {
+}
+
+// Section-top
+.section__top {
+  &--left {
+    &--info {
+      color: white;
+      & h2 {
+        font-size: 4.5rem;
+        padding: 1rem 0;
+      }
+    }
+  }
+}
+
+// elemt
+.element-p {
+  color: #fff;
+  &.p2 {
+    color: #99999f;
   }
 }

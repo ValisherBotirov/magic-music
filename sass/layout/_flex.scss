@@ -9,6 +9,12 @@
   gap: 2rem;
 }
 
+.flex__gap-small {
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+
 .flex--align {
   display: flex;
   align-items: center;

@@ -201,6 +201,17 @@ ul {
       .header__list--link.ikki span {
         padding-left: 1rem; }
 
+.section__top--left--info {
+  color: white; }
+  .section__top--left--info h2 {
+    font-size: 4.5rem;
+    padding: 1rem 0; }
+
+.element-p {
+  color: #fff; }
+  .element-p.p2 {
+    color: #99999f; }
+
 .u-text-center {
   text-align: center; }
 
@@ -212,6 +223,9 @@ ul {
 
 .u-margin-bottom-small {
   margin-bottom: 2rem; }
+
+.u-margin-bottom-small-2 {
+  margin-bottom: 1rem; }
 
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
@@ -282,6 +296,11 @@ ul {
   display: flex;
   justify-content: space-around;
   gap: 2rem; }
+
+.flex__gap-small {
+  display: flex;
+  justify-content: space-between;
+  gap: 1px; }
 
 .flex--align {
   display: flex;
