@@ -23,3 +23,26 @@
 .active {
   color: #32ccf6 !important;
 }
+
+.grid--4 {
+  border: 1px solid #161a1a;
+  &:hover {
+    background-color: #504e4e;
+    border: 1px solid white;
+  }
+}
+
+// Landing page
+.find__img--icon {
+  transition: all 1s;
+  &:hover {
+    transform: scale(1.2) rotateY(-180deg);
+  }
+
+  .premium__group--flex--block {
+    transition: all 1s;
+    &:hover {
+      transform: translateY(-1rem);
+    }
+  }
+}
