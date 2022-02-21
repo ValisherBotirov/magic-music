@@ -10,6 +10,9 @@
     text-transform: uppercase;
     font-size: 1.6rem;
     font-weight: bold;
+    &:hover {
+      color: #32ccf6;
+    }
     &.big {
       font-size: 6.4rem;
       padding-right: 2rem;

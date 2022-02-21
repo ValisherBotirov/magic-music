@@ -1,0 +1,25 @@
+// home page
+.card--top {
+  transition: all 1s;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.home__card--second {
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.05) translateY(-1rem);
+  }
+}
+
+.homeCard3 {
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.05) translateY(-0.5rem);
+  }
+}
+
+.active {
+  color: #32ccf6 !important;
+}

@@ -33,6 +33,24 @@ ul {
   width: 90%;
   margin: 0 auto; }
 
+.card--top {
+  transition: all 1s; }
+  .card--top:hover {
+    transform: scale(1.05); }
+
+.home__card--second {
+  transition: all 0.5s; }
+  .home__card--second:hover {
+    transform: scale(1.05) translateY(-1rem); }
+
+.homeCard3 {
+  transition: all 0.5s; }
+  .homeCard3:hover {
+    transform: scale(1.05) translateY(-0.5rem); }
+
+.active {
+  color: #32ccf6 !important; }
+
 .landing__page--info {
   width: 50%;
   margin: 0 auto;
@@ -186,6 +204,8 @@ ul {
       padding-left: 3rem; }
   .header__list--link {
     color: #fff; }
+    .header__list--link:hover {
+      color: #32ccf6; }
     .header__list--link.border {
       padding: 0.7rem 2.4rem;
       border: 1px solid #32ccf6;
@@ -389,6 +409,8 @@ ul {
     color: #fff;
     font-size: 1.8rem;
     font-weight: bold; }
+    .header__link:hover {
+      color: #32ccf6; }
     .header__link--btn {
       padding: 0.8rem 3rem;
       border: 1px solid #fff;
@@ -548,6 +570,8 @@ ul {
   text-transform: uppercase;
   font-size: 1.6rem;
   font-weight: bold; }
+  .genry__link:hover {
+    color: #32ccf6; }
   .genry__link.big {
     font-size: 6.4rem;
     padding-right: 2rem; }

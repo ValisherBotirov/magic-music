@@ -220,6 +220,10 @@
     }
     &--link {
       color: #fff;
+
+      &:hover {
+        color: #32ccf6;
+      }
       &.border {
         padding: 0.7rem 2.4rem;
         border: 1px solid #32ccf6;
