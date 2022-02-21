@@ -70,8 +70,6 @@
       & h2 {
         padding-left: 1rem;
       }
-      &--text {
-      }
     }
   }
 }
@@ -123,8 +121,7 @@
 .premium__group {
   &--flex {
     padding: 8rem 16rem;
-    &--block {
-    }
+
     &--sqr {
       width: 12rem;
       height: 12rem;
@@ -207,8 +204,6 @@
 
 // home page
 .header {
-  &__left {
-  }
   &__list {
     display: flex;
     align-items: center;
